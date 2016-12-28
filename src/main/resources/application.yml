@@ -1,0 +1,8 @@
+server:
+  port: 8761
+
+
+turbine:
+  aggregator:
+    clusterConfig: ORDERSERVICE,PRODUCTSERVICE,FRONTAPPLICATION,ZULL-SERVER
+  appConfig: orderservice,productservice,frontapplication,zull-server
