@@ -1,11 +1,6 @@
 server:
   port: 8761
 
-eureka:
-  server:
-    enableSelfPreservation: false
-  instance:
-    hostname: 54.90.195.96
 
 turbine:
   aggregator:
