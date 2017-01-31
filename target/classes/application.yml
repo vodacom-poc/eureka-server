@@ -1,0 +1,7 @@
+server:
+  port: 8761
+
+turbine:
+  aggregator:
+    clusterConfig: PRODUCTSERVICE,CHARGECODES,ASSIGNMENTS,ZULL-SERVER,TIMERECORDS,EMPDETAILSMASTER
+  appConfig: productservice,chargecodes,assignments,zull-server,timerecords,empdetailsmaster
