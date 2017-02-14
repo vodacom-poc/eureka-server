@@ -1354,3 +1354,870 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 10:55:51.792 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
 10:55:51.793 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
 10:55:51.793 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:56:21.582 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+10:56:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:56:51.770 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:56:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:56:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:56:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:56:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:56:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:56:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:56:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:56:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:56:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:56:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:56:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:56:51.774 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:56:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:56:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:57:21.582 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+10:57:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:57:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:57:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:57:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:57:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:57:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:57:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:57:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:57:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:57:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:57:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:57:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:57:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:57:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:57:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:57:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:58:21.582 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+10:58:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:58:51.770 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:58:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:58:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:58:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:58:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:58:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:58:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:58:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:58:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:58:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:58:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:58:51.777 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:58:51.777 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:58:51.778 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:58:51.778 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:59:21.608 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 28ms
+10:59:44.976 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:59:47.712 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+10:59:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:59:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:59:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:59:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:59:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:59:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:59:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:59:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:59:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:59:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:59:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:59:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:59:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:59:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:59:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:59:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+11:00:21.608 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+11:00:51.772 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+11:00:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+11:00:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+11:00:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+11:00:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+11:00:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+11:00:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+11:00:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+11:00:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+11:00:51.777 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+11:00:51.777 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+11:00:51.778 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+11:00:51.778 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+11:00:51.779 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+11:00:51.779 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+11:00:51.780 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+11:01:21.608 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+11:01:51.772 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+11:01:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+11:01:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+11:01:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+11:01:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+11:01:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+11:01:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+11:01:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+11:01:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+11:01:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+11:01:51.777 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+11:01:51.777 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+11:01:51.779 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+11:01:51.780 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+11:01:51.780 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+11:01:51.781 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+11:02:21.608 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+11:02:51.772 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+11:02:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+11:02:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+11:02:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+11:02:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+11:02:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+11:02:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+11:02:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+11:02:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+11:02:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+11:02:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+11:02:51.777 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+11:02:51.778 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+11:02:51.778 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+11:02:51.778 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+11:02:51.779 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+11:03:21.608 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+11:03:51.773 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+11:03:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+11:03:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+11:03:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+11:03:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+11:03:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+11:03:51.777 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+11:03:51.778 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+11:03:51.778 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+11:03:51.778 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+11:03:51.779 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+11:03:51.779 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+11:03:51.780 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+11:03:51.780 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+11:03:51.781 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+11:03:51.781 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+11:04:21.608 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+11:04:44.988 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+11:04:45.347 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+11:04:45.348 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8: startup date [Tue Feb 14 10:44:37 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+11:04:45.350 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Unregistering application unknown with eureka with status DOWN
+11:04:45.351 [RMI TCP Connection(2)-192.168.0.102] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1487050485351, current=DOWN, previous=UP]
+11:04:45.352 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761: registering service...
+11:04:45.352 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+11:04:45.354 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+11:04:45.370 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance UNKNOWN/192.168.0.102:8761 (replication=false)
+11:04:45.386 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761 - deregister  status: 200
+11:04:45.393 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+11:04:45.401 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+11:04:45.447 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+11:04:45.487 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+11:04:45.489 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+11:04:45.491 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+11:04:45.495 [RMI TCP Connection(2)-192.168.0.102] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+11:04:45.653 [RMI TCP Connection(2)-192.168.0.102] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+11:04:45.659 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+11:04:46.027 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat
+11:04:46.045 [localhost-startStop-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+11:04:46.138 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+11:04:46.144 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.NoHttpResponseException: localhost:8761 failed to respond
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.NoHttpResponseException: localhost:8761 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:232)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+11:04:46.147 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+11:04:46.150 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8761"]
+11:04:48.157 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+11:04:48.159 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+11:04:48.161 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+11:04:48.165 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+11:04:51.772 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+11:04:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+11:04:51.806 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed to fetch instances for app: productservice, retrying once more
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:51.814 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+11:04:51.927 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed again to fetch instances for app: productservice, giving up
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:51.930 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+11:04:51.963 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed to fetch instances for app: chargecodes, retrying once more
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.043 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+11:04:52.052 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed again to fetch instances for app: chargecodes, giving up
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.055 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+11:04:52.071 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed to fetch instances for app: assignments, retrying once more
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.077 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+11:04:52.087 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed again to fetch instances for app: assignments, giving up
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.089 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+11:04:52.098 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed to fetch instances for app: zull-server, retrying once more
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.101 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+11:04:52.110 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed again to fetch instances for app: zull-server, giving up
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.112 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+11:04:52.124 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed to fetch instances for app: timerecords, retrying once more
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.126 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+11:04:52.135 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed again to fetch instances for app: timerecords, giving up
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.136 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+11:04:52.146 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed to fetch instances for app: empdetailsmaster, retrying once more
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.148 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+11:04:52.158 [Timer-0] ERROR o.s.c.n.t.CommonsInstanceDiscovery - Failed again to fetch instances for app: empdetailsmaster, giving up
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eurekaClientConfigBean' defined in class path resource [org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplication(Unknown Source)
+	at org.springframework.cloud.netflix.turbine.EurekaInstanceDiscovery.getInstancesForApp(EurekaInstanceDiscovery.java:70)
+	at org.springframework.cloud.netflix.turbine.CommonsInstanceDiscovery.getInstanceList(CommonsInstanceDiscovery.java:105)
+	at com.netflix.turbine.discovery.InstanceObservable.getInstanceList(InstanceObservable.java:327)
+	at com.netflix.turbine.discovery.InstanceObservable.access$500(InstanceObservable.java:66)
+	at com.netflix.turbine.discovery.InstanceObservable$1.run(InstanceObservable.java:258)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.IllegalStateException: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1065)
+	at org.springframework.context.support.GenericApplicationContext.getAutowireCapableBeanFactory(GenericApplicationContext.java:305)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$LocalValidatorFactory.run(ConfigurationPropertiesBindingPostProcessor.java:453)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:387)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:370)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:332)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	... 30 common frames omitted
+11:04:52.161 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+11:04:52.161 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+11:04:52.162 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
