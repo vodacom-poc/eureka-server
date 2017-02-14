@@ -1,0 +1,1356 @@
+10:37:46.389 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2: startup date [Tue Feb 14 10:37:46 IST 2017]; root of context hierarchy
+10:37:47.165 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+10:37:47.455 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:37:47.514 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$395ea18e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:37:48.935 [main] INFO  c.a.m.e.EurekaServerApplication - No active profile set, falling back to default profiles: default
+10:37:49.002 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Feb 14 10:37:49 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+10:37:51.004 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+10:37:51.353 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6a497fb1-ff9f-30e8-af23-967cfbff733a
+10:37:51.455 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:37:51.590 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$395ea18e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:37:52.131 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8761 (http)
+10:37:52.150 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+10:37:52.152 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+10:37:52.574 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:37:52.575 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3574 ms
+10:37:54.007 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+10:37:54.008 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:37:54.009 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:37:54.009 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:37:54.010 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:37:54.011 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestTraceFilter' to: [/*]
+10:37:54.011 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+10:37:54.012 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+10:37:54.013 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+10:37:54.015 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'turbineStreamServlet' to [/turbine.stream]
+10:37:54.016 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+10:37:54.732 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+10:37:55.427 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+10:37:55.429 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+10:37:56.264 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+10:37:56.265 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+10:37:59.742 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+10:38:00.132 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+10:38:00.134 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+10:38:00.135 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+10:38:00.135 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+10:38:00.381 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:38:01.148 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+10:38:01.149 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+10:38:01.149 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+10:38:01.150 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+10:38:01.150 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+10:38:01.150 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+10:38:01.151 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+10:38:03.522 [main] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1030)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:944)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:444)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:304)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:51)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:192)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$40c79aad.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$40c79aad$$FastClassBySpringCGLIB$$3b97c75d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$40c79aad.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$2f312be.CGLIB$peerAwareInstanceRegistry$5(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$2f312be$$FastClassBySpringCGLIB$$55f21752.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$2f312be.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.accenture.microservices.eurekaserver.EurekaServerApplication.main(EurekaServerApplication.java:17)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 107 common frames omitted
+10:38:03.531 [main] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+10:38:03.535 [main] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1030)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:944)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:444)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:304)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:51)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:192)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$40c79aad.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$40c79aad$$FastClassBySpringCGLIB$$3b97c75d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$40c79aad.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$2f312be.CGLIB$peerAwareInstanceRegistry$5(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$2f312be$$FastClassBySpringCGLIB$$55f21752.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$2f312be.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.accenture.microservices.eurekaserver.EurekaServerApplication.main(EurekaServerApplication.java:17)
+10:38:03.539 [main] WARN  c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+10:38:03.542 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+10:38:03.549 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:38:03.557 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1487048883556 with initial instances count: 0
+10:38:03.939 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+10:38:03.943 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10:38:03.959 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+10:38:03.961 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+10:38:03.962 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+10:38:03.963 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+10:38:04.619 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+10:38:04.635 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+10:38:04.637 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+10:38:06.380 [main] INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Feb 14 10:37:49 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2] and template loader path [classpath:/templates/]
+10:38:06.382 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:38:07.592 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Feb 14 10:37:49 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+10:38:07.784 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+10:38:07.785 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+10:38:07.787 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+10:38:07.788 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+10:38:07.790 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:38:07.791 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:38:07.872 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:07.874 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:07.943 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:38:08.937 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.939 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.941 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+10:38:08.943 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.946 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.948 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.954 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+10:38:08.955 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.957 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+10:38:08.959 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.969 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.971 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.974 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+10:38:08.976 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.980 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+10:38:08.984 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+10:38:08.986 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+10:38:08.987 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:38:08.988 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+10:38:08.997 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+10:38:09.001 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+10:38:09.003 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+10:38:09.649 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+10:38:09.656 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+10:38:09.657 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:38:09.668 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+10:38:09.668 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:38:09.825 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:38:09.839 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+10:38:10.063 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+10:38:10.066 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+10:38:10.067 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+10:38:10.069 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+10:38:10.073 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+10:38:10.097 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+10:38:10.130 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+10:38:10.155 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=45905bff,type=ConfigurationPropertiesRebinder]
+10:38:10.191 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+10:38:10.193 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+10:38:10.503 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+10:38:10.550 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+10:38:10.663 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+10:38:10.664 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+10:38:10.784 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+10:38:10.801 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+10:38:10.908 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: []
+10:38:12.105 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:38:12.128 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:38:12.129 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:38:12.130 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for PRODUCTSERVICE_agg
+10:38:12.134 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg]
+10:38:12.135 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:38:12.136 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:38:12.136 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:38:12.137 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for CHARGECODES_agg
+10:38:12.137 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg]
+10:38:12.138 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:38:12.139 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:38:12.139 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:38:12.140 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ASSIGNMENTS_agg
+10:38:12.144 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+10:38:12.145 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:38:12.145 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:38:12.146 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:38:12.147 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ZULL-SERVER_agg
+10:38:12.147 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+10:38:12.148 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:38:12.149 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:38:12.149 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:38:12.150 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for TIMERECORDS_agg
+10:38:12.150 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, TIMERECORDS_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+10:38:12.151 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:38:12.152 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:38:12.152 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:38:12.152 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for EMPDETAILSMASTER_agg
+10:38:12.153 [main] INFO  c.n.t.discovery.InstanceObservable - Starting InstanceObservable at frequency: 60000 millis
+10:38:12.154 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Registering application unknown with eureka with status UP
+10:38:12.155 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1487048892155, current=UP, previous=STARTING]
+10:38:12.163 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+10:38:12.172 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+10:38:12.176 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+10:38:12.180 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+10:38:12.184 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+10:38:12.188 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+10:38:12.194 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+10:38:12.198 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+10:38:12.202 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+10:38:12.206 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+10:38:12.210 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+10:38:12.213 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:38:12.214 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:38:12.214 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:38:12.215 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:38:12.215 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:38:12.215 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:38:12.215 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:38:12.216 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:38:12.216 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:38:12.216 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:38:12.216 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:38:12.217 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:38:12.217 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:38:12.217 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:38:12.218 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:38:12.218 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:38:12.219 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761: registering service...
+10:38:12.274 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+10:38:12.316 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+10:38:12.335 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8761]
+10:38:12.356 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:38:12.391 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8761 (http)
+10:38:12.393 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Updating port to 8761
+10:38:12.401 [main] INFO  c.a.m.e.EurekaServerApplication - Started EurekaServerApplication in 29.192 seconds (JVM running for 33.371)
+10:38:13.626 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:38:13.626 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10:38:14.030 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 403 ms
+10:38:14.163 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=false)
+10:38:14.214 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761 - registration status: 204
+10:38:14.882 [TaskBatchingWorker-target_localhost-2] ERROR c.n.e.c.ReplicationTaskProcessor - Network level connection to peer localhost; retrying after delay
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:232)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+10:38:15.924 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:38:15.950 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:38:15.959 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:38:15.961 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:38:15.975 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:38:33.543 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+10:38:33.544 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+10:38:33.545 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+10:38:33.545 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+10:38:33.545 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+10:38:33.546 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+10:38:33.546 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+10:38:33.645 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+10:38:40.852 [Thread-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:38:40.853 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+10:38:40.854 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+10:38:40.854 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+10:38:40.862 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+10:39:12.176 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:39:12.177 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:39:12.178 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:39:12.178 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:39:12.179 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:39:12.179 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:39:12.180 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:39:12.180 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:39:12.180 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:39:12.181 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:39:12.181 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:39:12.182 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:39:12.182 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:39:12.183 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:39:12.183 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:39:12.183 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:39:40.856 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+10:40:12.176 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:40:12.177 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:40:12.178 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:40:12.178 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:40:12.179 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:40:12.179 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:40:12.180 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:40:12.180 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:40:12.181 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:40:12.182 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:40:12.183 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:40:12.183 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:40:12.184 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:40:12.184 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:40:12.185 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:40:12.185 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:40:40.856 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+10:41:12.322 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:41:12.323 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:41:12.324 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:41:12.324 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:41:12.325 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:41:12.325 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:41:12.326 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:41:12.326 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:41:12.327 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:41:12.327 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:41:12.328 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:41:12.328 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:41:12.328 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:41:12.329 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:41:12.330 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:41:12.330 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:41:24.843 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TIMERECORDS/192.168.0.102:timerecords:8095 with status UP (replication=false)
+10:41:25.354 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance TIMERECORDS/192.168.0.102:timerecords:8095 with status UP (replication=true)
+10:41:40.856 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+10:42:12.322 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:42:12.322 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:42:12.322 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:42:12.323 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:42:12.323 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:42:12.323 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:42:12.323 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:42:12.323 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:42:12.324 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:42:12.324 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:42:12.324 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Received instance list for app: timerecords, size=1
+10:42:12.329 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:42:12.329 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:42:12.329 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 1
+10:42:12.330 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:42:12.330 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:1, hosts down: 0
+10:42:12.349 [Timer-0] INFO  c.n.t.m.instance.InstanceMonitor - Url for host: http://localhost:8095/hystrix.stream TIMERECORDS
+10:42:12.349 [Timer-0] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: TIMERECORDS_agg_aggClusterEventHandler
+10:42:12.351 [Timer-0] INFO  c.n.turbine.data.AggDataFromCluster - Per handler dispacher started for: TIMERECORDS_agg_aggClusterEventHandler
+10:42:22.421 [InstanceMonitor] WARN  c.n.t.m.instance.InstanceMonitor - Stopping InstanceMonitor for: localhost:8095 TIMERECORDS
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:209)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.netflix.turbine.monitor.instance.InstanceMonitor.init(InstanceMonitor.java:307)
+	at com.netflix.turbine.monitor.instance.InstanceMonitor.access$100(InstanceMonitor.java:103)
+	at com.netflix.turbine.monitor.instance.InstanceMonitor$2.call(InstanceMonitor.java:235)
+	at com.netflix.turbine.monitor.instance.InstanceMonitor$2.call(InstanceMonitor.java:229)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+10:42:22.427 [InstanceMonitor] INFO  c.n.t.m.instance.InstanceMonitor - Single Server event publisher releasing http client connection for: localhost:8095 TIMERECORDS
+10:42:22.428 [InstanceMonitor] INFO  c.n.t.m.c.AggregateClusterMonitor - Host lost: localhost:8095, adding to time based cache
+
+10:42:22.428 [InstanceMonitor] INFO  c.n.t.m.instance.InstanceMonitor - Removing monitor from StatsEventConsole: localhost:8095 TIMERECORDS
+10:42:40.323 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+10:42:40.324 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Feb 14 10:37:49 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+10:42:40.326 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Unregistering application unknown with eureka with status DOWN
+10:42:40.327 [RMI TCP Connection(2)-192.168.0.102] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1487049160327, current=DOWN, previous=UP]
+10:42:40.327 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761: registering service...
+10:42:40.327 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+10:42:40.329 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+10:42:40.343 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance UNKNOWN/192.168.0.102:8761 (replication=false)
+10:42:40.350 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761 - deregister  status: 200
+10:42:40.357 [RMI TCP Connection(2)-192.168.0.102] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+10:42:40.461 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+10:42:40.501 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:42:40.502 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+10:42:40.503 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:42:40.504 [RMI TCP Connection(2)-192.168.0.102] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+10:42:40.516 [RMI TCP Connection(2)-192.168.0.102] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+10:42:40.525 [RMI TCP Connection(2)-192.168.0.102] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+10:42:40.552 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+10:42:40.605 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat
+10:42:40.615 [localhost-startStop-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+10:42:40.656 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+10:42:40.661 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.NoHttpResponseException: localhost:8761 failed to respond
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.NoHttpResponseException: localhost:8761 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:232)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+10:42:40.664 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+10:42:40.667 [RMI TCP Connection(2)-192.168.0.102] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8761"]
+10:44:35.961 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+10:44:35.976 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2: startup date [Tue Feb 14 10:44:35 IST 2017]; root of context hierarchy
+10:44:36.603 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:44:36.641 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5b1af4d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:44:37.781 [main] INFO  c.a.m.e.EurekaServerApplication - No active profile set, falling back to default profiles: default
+10:44:37.817 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8: startup date [Tue Feb 14 10:44:37 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+10:44:40.060 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+10:44:40.340 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6a497fb1-ff9f-30e8-af23-967cfbff733a
+10:44:40.416 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+10:44:40.517 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5b1af4d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:44:40.914 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8761 (http)
+10:44:40.935 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+10:44:40.937 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+10:44:41.420 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:44:41.421 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3604 ms
+10:44:42.633 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+10:44:42.633 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+10:44:42.634 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+10:44:42.634 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+10:44:42.635 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+10:44:42.635 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestTraceFilter' to: [/*]
+10:44:42.636 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+10:44:42.636 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+10:44:42.637 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+10:44:42.639 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'turbineStreamServlet' to [/turbine.stream]
+10:44:42.639 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+10:44:42.758 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+10:44:42.861 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+10:44:42.861 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+10:44:43.125 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+10:44:43.126 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+10:44:44.221 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+10:44:44.473 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+10:44:44.474 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+10:44:44.474 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+10:44:44.475 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+10:44:44.614 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:44:44.905 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+10:44:44.906 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+10:44:44.907 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+10:44:44.907 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+10:44:44.907 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+10:44:44.908 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+10:44:44.908 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+10:44:47.047 [main] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1030)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:944)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:444)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:304)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:51)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:192)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6283edf1.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6283edf1$$FastClassBySpringCGLIB$$2ba1e2e3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6283edf1.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$24af6602.CGLIB$peerAwareInstanceRegistry$5(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$24af6602$$FastClassBySpringCGLIB$$64c4309a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$24af6602.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.accenture.microservices.eurekaserver.EurekaServerApplication.main(EurekaServerApplication.java:17)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 107 common frames omitted
+10:44:47.056 [main] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failure
+10:44:47.058 [main] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1030)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:944)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:444)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:304)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:51)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:192)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6283edf1.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6283edf1$$FastClassBySpringCGLIB$$2ba1e2e3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$6283edf1.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
+	at com.sun.proxy.$Proxy76.getApplications(Unknown Source)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$24af6602.CGLIB$peerAwareInstanceRegistry$5(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$24af6602$$FastClassBySpringCGLIB$$64c4309a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:356)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$24af6602.peerAwareInstanceRegistry(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1022)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:589)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:370)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:754)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.accenture.microservices.eurekaserver.EurekaServerApplication.main(EurekaServerApplication.java:17)
+10:44:47.065 [main] WARN  c.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+10:44:47.082 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+10:44:47.088 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:44:47.094 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1487049287094 with initial instances count: 0
+10:44:47.348 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+10:44:47.353 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+10:44:47.371 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+10:44:47.372 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+10:44:47.373 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+10:44:47.373 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+10:44:47.687 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+10:44:47.710 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+10:44:47.712 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+10:44:48.001 [main] INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8: startup date [Tue Feb 14 10:44:37 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2] and template loader path [classpath:/templates/]
+10:44:48.004 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+10:44:48.925 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@463b4ac8: startup date [Tue Feb 14 10:44:37 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+10:44:49.178 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+10:44:49.180 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+10:44:49.181 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+10:44:49.182 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+10:44:49.193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+10:44:49.195 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+10:44:49.265 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:44:49.266 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:44:49.380 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+10:44:50.313 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.315 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+10:44:50.316 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+10:44:50.317 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+10:44:50.319 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+10:44:50.321 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.322 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+10:44:50.324 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.326 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.328 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.332 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+10:44:50.335 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+10:44:50.344 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+10:44:50.345 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.349 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.351 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+10:44:50.356 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.359 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+10:44:50.359 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.361 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.362 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+10:44:50.365 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+10:44:50.648 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+10:44:50.655 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+10:44:50.656 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:44:50.666 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+10:44:50.667 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:44:50.836 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:44:50.853 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+10:44:50.854 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+10:44:50.858 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+10:44:50.860 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+10:44:50.861 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+10:44:50.866 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+10:44:50.885 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+10:44:50.919 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+10:44:50.938 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=463b4ac8,type=ConfigurationPropertiesRebinder]
+10:44:50.966 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+10:44:50.970 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+10:44:51.377 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+10:44:51.387 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+10:44:51.389 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+10:44:51.390 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+10:44:51.410 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+10:44:51.424 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+10:44:51.429 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: []
+10:44:51.649 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:44:51.652 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:44:51.652 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:44:51.653 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for PRODUCTSERVICE_agg
+10:44:51.656 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg]
+10:44:51.657 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:44:51.658 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:44:51.659 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:44:51.659 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for CHARGECODES_agg
+10:44:51.659 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg]
+10:44:51.660 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:44:51.661 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:44:51.661 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:44:51.662 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ASSIGNMENTS_agg
+10:44:51.662 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+10:44:51.663 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:44:51.663 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:44:51.663 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:44:51.663 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ZULL-SERVER_agg
+10:44:51.664 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+10:44:51.664 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:44:51.665 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:44:51.665 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:44:51.665 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for TIMERECORDS_agg
+10:44:51.666 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, TIMERECORDS_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+10:44:51.666 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+10:44:51.667 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+10:44:51.667 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+10:44:51.667 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for EMPDETAILSMASTER_agg
+10:44:51.668 [main] INFO  c.n.t.discovery.InstanceObservable - Starting InstanceObservable at frequency: 60000 millis
+10:44:51.668 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Registering application unknown with eureka with status UP
+10:44:51.668 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:44:51.669 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:44:51.669 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:44:51.670 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:44:51.670 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1487049291670, current=UP, previous=STARTING]
+10:44:51.670 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:44:51.670 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:44:51.671 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:44:51.671 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:44:51.671 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:44:51.672 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:44:51.672 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:44:51.672 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:44:51.672 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:44:51.673 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:44:51.673 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:44:51.674 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:44:51.679 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761: registering service...
+10:44:51.681 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+10:44:51.694 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+10:44:51.699 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+10:44:51.703 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+10:44:51.708 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+10:44:51.727 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+10:44:51.733 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+10:44:51.743 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+10:44:51.749 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+10:44:51.753 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+10:44:51.756 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+10:44:51.759 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+10:44:51.794 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+10:44:51.816 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8761]
+10:44:51.829 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+10:44:51.852 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8761 (http)
+10:44:51.853 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Updating port to 8761
+10:44:51.857 [main] INFO  c.a.m.e.EurekaServerApplication - Started EurekaServerApplication in 18.062 seconds (JVM running for 21.403)
+10:44:52.842 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+10:44:52.842 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10:44:52.908 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+10:44:53.038 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=false)
+10:44:53.068 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_UNKNOWN/192.168.0.102:8761 - registration status: 204
+10:44:53.758 [TaskBatchingWorker-target_localhost-5] ERROR c.n.e.c.ReplicationTaskProcessor - Network level connection to peer localhost; retrying after delay
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:232)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+10:44:54.202 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:44:54.207 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:44:54.213 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:45:17.083 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+10:45:17.084 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+10:45:17.084 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+10:45:17.085 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+10:45:17.085 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+10:45:17.085 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+10:45:17.086 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+10:45:17.157 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+10:45:21.448 [Thread-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance UNKNOWN/192.168.0.102:8761 with status UP (replication=true)
+10:45:21.449 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+10:45:21.451 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+10:45:21.451 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+10:45:21.474 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+10:45:51.671 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:45:51.673 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:45:51.673 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:45:51.675 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:45:51.676 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:45:51.676 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:45:51.677 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:45:51.677 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:45:51.678 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:45:51.678 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:45:51.679 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:45:51.679 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:45:51.680 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:45:51.680 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:45:51.680 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:45:51.681 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:46:21.453 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+10:46:51.674 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:46:51.675 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:46:51.676 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:46:51.676 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:46:51.677 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:46:51.677 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:46:51.678 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:46:51.678 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:46:51.679 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:46:51.680 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:46:51.680 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:46:51.681 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:46:51.681 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:46:51.682 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:46:51.682 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:46:51.683 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:47:21.473 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+10:47:51.724 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:47:51.725 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:47:51.725 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:47:51.726 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:47:51.726 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:47:51.727 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:47:51.727 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:47:51.727 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:47:51.728 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:47:51.729 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:47:51.729 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:47:51.729 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:47:51.730 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:47:51.730 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:47:51.730 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:47:51.731 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:48:21.546 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+10:48:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:48:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:48:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:48:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:48:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:48:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:48:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:48:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:48:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:48:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:48:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:48:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:48:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:48:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:48:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:48:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:49:21.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+10:49:45.010 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:49:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:49:51.770 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:49:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:49:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:49:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:49:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:49:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:49:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:49:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:49:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:49:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:49:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:49:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:49:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:49:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:49:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:50:21.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+10:50:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:50:51.770 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:50:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:50:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:50:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:50:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:50:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:50:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:50:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:50:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:50:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:50:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:50:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:50:51.777 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:50:51.777 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:50:51.778 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:51:21.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+10:51:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:51:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:51:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:51:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:51:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:51:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:51:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:51:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:51:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:51:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:51:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:51:51.776 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:51:51.776 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:51:51.777 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:51:51.777 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:51:51.777 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:52:21.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+10:52:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:52:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:52:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:52:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:52:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:52:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:52:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:52:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:52:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:52:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:52:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:52:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:52:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:52:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:52:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:52:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:53:21.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+10:53:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:53:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:53:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:53:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:53:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:53:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:53:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:53:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:53:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:53:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:53:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:53:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:53:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:53:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:53:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:53:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:54:21.553 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+10:54:44.984 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+10:54:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:54:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:54:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:54:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:54:51.772 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:54:51.772 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:54:51.773 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:54:51.773 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:54:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:54:51.774 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:54:51.774 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:54:51.775 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:54:51.775 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:54:51.775 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:54:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:54:51.776 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+10:55:21.582 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 35ms
+10:55:28.100 [TaskBatchingWorker-target_localhost-14] ERROR c.n.e.c.ReplicationTaskProcessor - Network level connection to peer localhost; retrying after delay
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:232)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+10:55:51.770 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+10:55:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+10:55:51.771 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+10:55:51.771 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+10:55:51.783 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+10:55:51.789 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+10:55:51.790 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+10:55:51.790 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+10:55:51.790 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+10:55:51.791 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+10:55:51.791 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+10:55:51.791 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+10:55:51.792 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+10:55:51.792 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+10:55:51.793 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+10:55:51.793 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
