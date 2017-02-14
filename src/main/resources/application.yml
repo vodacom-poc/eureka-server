@@ -1,13 +1,7 @@
 server:
   port: 8761
 
-eureka:
-  server:
-    enableSelfPreservation: false
-  instance:
-    hostname: 54.90.195.96
-
 turbine:
   aggregator:
-    clusterConfig: ORDERSERVICE,PRODUCTSERVICE,FRONTAPPLICATION,ZULL-SERVER
-  appConfig: orderservice,productservice,frontapplication,zull-server
+    clusterConfig: PRODUCTSERVICE,CHARGECODES,ASSIGNMENTS,ZULL-SERVER,TIMERECORDS,EMPDETAILSMASTER
+  appConfig: productservice,chargecodes,assignments,zull-server,timerecords,empdetailsmaster
