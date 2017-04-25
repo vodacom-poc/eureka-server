@@ -2,7 +2,7 @@ FROM java:8
 MAINTAINER Mahima Agarwal  <mahima.agarwal@gmail.com>
 
 VOLUME /tmp
-ADD eurekaserver-0.0.1-SNAPSHOT.jar  app.jar
+ADD eureka_server-1.1.jar  app.jar
 RUN sh -c 'touch /app.jar'
 EXPOSE 8761
 ENV JAVA_OPTS=""
