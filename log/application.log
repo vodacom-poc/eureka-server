@@ -6922,3 +6922,696 @@ Caused by: java.lang.IllegalStateException: org.springframework.boot.context.emb
 16:27:17.043 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
 16:27:17.044 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
 16:27:17.044 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:31:44.698 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2: startup date [Tue Apr 25 18:31:44 IST 2017]; root of context hierarchy
+18:31:44.978 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+18:31:45.191 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18:31:45.263 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$395ea18e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:31:46.347 [main] INFO  c.a.m.e.EurekaServerApplication - No active profile set, falling back to default profiles: default
+18:31:46.372 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Apr 25 18:31:46 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:31:48.751 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+18:31:49.080 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6a497fb1-ff9f-30e8-af23-967cfbff733a
+18:31:49.172 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18:31:49.348 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$395ea18e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:31:49.836 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8761 (http)
+18:31:49.854 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+18:31:49.856 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+18:31:50.471 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:31:50.472 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4100 ms
+18:31:52.214 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+18:31:52.215 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:31:52.216 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:31:52.216 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:31:52.217 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:31:52.217 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestTraceFilter' to: [/*]
+18:31:52.218 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+18:31:52.218 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+18:31:52.219 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+18:31:52.221 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'turbineStreamServlet' to [/turbine.stream]
+18:31:52.222 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:31:52.419 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+18:31:52.603 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+18:31:52.604 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+18:31:52.900 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+18:31:52.901 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+18:31:54.402 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+18:31:54.502 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+18:31:54.516 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1493125314516 with initial instances count: 0
+18:31:54.673 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+18:31:54.677 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+18:31:54.696 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+18:31:54.700 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+18:31:54.834 [main] INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Apr 25 18:31:46 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2] and template loader path [classpath:/templates/]
+18:31:54.836 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+18:31:55.462 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Apr 25 18:31:46 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:31:55.637 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+18:31:55.652 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+18:31:55.656 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+18:31:55.657 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+18:31:55.661 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:31:55.662 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:31:55.791 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:31:55.792 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:31:55.909 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:31:56.927 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.928 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:31:56.930 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+18:31:56.931 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.933 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+18:31:56.934 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.936 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.937 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.938 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+18:31:56.941 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:31:56.952 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.954 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.958 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.960 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+18:31:56.970 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.972 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+18:31:56.973 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:56.975 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:31:56.977 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+18:31:56.978 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+18:31:56.979 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+18:31:56.991 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:31:57.279 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+18:31:57.286 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:31:57.287 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:31:57.296 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:31:57.296 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:31:57.496 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:31:57.512 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+18:31:57.513 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+18:31:57.517 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+18:31:57.518 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+18:31:57.520 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+18:31:57.525 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+18:31:57.575 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+18:31:57.595 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+18:31:57.616 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=45905bff,type=ConfigurationPropertiesRebinder]
+18:31:57.639 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+18:31:57.642 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+18:31:58.018 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+18:31:58.032 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+18:31:58.033 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+18:31:58.033 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+18:31:58.073 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: []
+18:31:58.569 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+18:31:58.570 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+18:31:58.570 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+18:31:58.571 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+18:31:58.572 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+18:31:58.580 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:31:58.584 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:31:58.585 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:31:58.585 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for PRODUCTSERVICE_agg
+18:31:58.589 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+18:31:58.590 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg]
+18:31:58.593 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:31:58.594 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:31:58.594 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:31:58.594 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for CHARGECODES_agg
+18:31:58.595 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg]
+18:31:58.595 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:31:58.596 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:31:58.596 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:31:58.597 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ASSIGNMENTS_agg
+18:31:58.597 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:31:58.619 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:31:58.620 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:31:58.620 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:31:58.620 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ZULL-SERVER_agg
+18:31:58.621 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:31:58.622 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:31:58.623 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:31:58.624 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:31:58.624 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for TIMERECORDS_agg
+18:31:58.625 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, TIMERECORDS_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:31:58.635 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:31:58.636 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:31:58.636 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:31:58.638 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for EMPDETAILSMASTER_agg
+18:31:58.639 [main] INFO  c.n.t.discovery.InstanceObservable - Starting InstanceObservable at frequency: 60000 millis
+18:31:58.639 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Registering application unknown with eureka with status UP
+18:31:58.642 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:31:58.643 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:31:58.643 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:31:58.643 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:31:58.644 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:31:58.645 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:31:58.645 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:31:58.645 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:31:58.646 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:31:58.648 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:31:58.649 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:31:58.649 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:31:58.650 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:31:58.650 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:31:58.652 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:31:58.652 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:31:58.660 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+18:31:58.676 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+18:31:58.680 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+18:31:58.684 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+18:31:58.689 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+18:31:58.693 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+18:31:58.697 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+18:31:58.701 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+18:31:58.705 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+18:31:58.709 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+18:31:58.713 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+18:31:58.717 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+18:31:58.766 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+18:31:58.784 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8761]
+18:31:58.803 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:31:58.855 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8761 (http)
+18:31:58.857 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Updating port to 8761
+18:31:58.862 [main] INFO  c.a.m.e.EurekaServerApplication - Started EurekaServerApplication in 15.174 seconds (JVM running for 17.523)
+18:32:58.641 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+18:32:58.711 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:32:58.711 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:32:58.712 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:32:58.712 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:32:58.712 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:32:58.713 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:32:58.713 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:32:58.713 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:32:58.714 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:32:58.714 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:32:58.714 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:32:58.715 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:32:58.716 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:32:58.716 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:32:58.717 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:32:58.717 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:33:18.610 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:33:18.610 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:33:18.734 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 124 ms
+18:33:58.710 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+18:33:58.780 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:33:58.781 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:33:58.781 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:33:58.782 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:33:58.782 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:33:58.782 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:33:58.783 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:33:58.783 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:33:58.784 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:33:58.785 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:33:58.785 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:33:58.786 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:33:58.786 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:33:58.786 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:33:58.786 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:33:58.786 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:34:58.779 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+18:34:58.849 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:34:58.849 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:34:58.849 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:34:58.850 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:34:58.850 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:34:58.850 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:34:58.850 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:34:58.851 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:34:58.851 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:34:58.851 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:34:58.851 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:34:58.852 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:34:58.852 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:34:58.852 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:34:58.853 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:34:58.853 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:35:58.839 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+18:35:58.908 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:35:58.908 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:35:58.908 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:35:58.908 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:35:58.909 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:35:58.909 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:35:58.909 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:35:58.909 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:35:58.909 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:35:58.909 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:35:58.910 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:35:58.910 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:35:58.910 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:35:58.910 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:35:58.910 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:35:58.910 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:36:22.202 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+18:36:22.203 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45905bff: startup date [Tue Apr 25 18:31:46 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:36:22.204 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Unregistering application unknown with eureka with status DOWN
+18:36:22.205 [RMI TCP Connection(2)-192.168.0.104] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+18:36:22.205 [RMI TCP Connection(2)-192.168.0.104] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+18:36:22.207 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+18:36:22.213 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:36:22.214 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+18:36:22.216 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:36:22.216 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:36:22.218 [RMI TCP Connection(2)-192.168.0.104] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+18:36:22.222 [RMI TCP Connection(2)-192.168.0.104] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+18:36:22.279 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+18:36:22.323 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat
+18:36:22.382 [localhost-startStop-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+18:36:22.431 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+18:36:22.451 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8761"]
+18:50:49.989 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2: startup date [Tue Apr 25 18:50:49 IST 2017]; root of context hierarchy
+18:50:50.031 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+18:50:50.491 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18:50:50.528 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a9a1ca5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:50:51.512 [main] INFO  c.a.m.e.EurekaServerApplication - No active profile set, falling back to default profiles: default
+18:50:51.543 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a2c13a8: startup date [Tue Apr 25 18:50:51 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:50:55.817 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+18:50:56.480 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6d1d5238-6d6d-3488-91cd-2c4ce7c4261c
+18:50:56.599 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18:50:56.967 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a9a1ca5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:50:58.051 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8761 (http)
+18:50:58.068 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+18:50:58.070 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+18:50:58.697 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:50:58.698 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7155 ms
+18:51:00.339 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+18:51:00.340 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:51:00.340 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:51:00.341 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:51:00.341 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:51:00.342 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestTraceFilter' to: [/*]
+18:51:00.342 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+18:51:00.343 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+18:51:00.344 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+18:51:00.346 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'turbineStreamServlet' to [/turbine.stream]
+18:51:00.347 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:51:00.569 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+18:51:00.736 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+18:51:00.737 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+18:51:01.094 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+18:51:01.094 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+18:51:02.707 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+18:51:02.778 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+18:51:02.791 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1493126462791 with initial instances count: 0
+18:51:02.925 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+18:51:02.928 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+18:51:02.965 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+18:51:02.968 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+18:51:03.144 [main] INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a2c13a8: startup date [Tue Apr 25 18:50:51 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2] and template loader path [classpath:/templates/]
+18:51:03.146 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+18:51:04.098 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a2c13a8: startup date [Tue Apr 25 18:50:51 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:51:04.712 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+18:51:04.714 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+18:51:04.716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+18:51:04.716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+18:51:04.720 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:51:04.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:51:04.809 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:51:04.810 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:51:04.878 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:51:06.581 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+18:51:06.582 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+18:51:06.588 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.590 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:51:06.592 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+18:51:06.594 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.596 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.598 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.600 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.606 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.610 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.611 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:51:06.858 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+18:51:06.859 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+18:51:06.864 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:51:06.869 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+18:51:06.870 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.871 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.873 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+18:51:06.874 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.875 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:51:06.877 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+18:51:07.168 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+18:51:07.176 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:51:07.177 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:51:07.187 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:51:07.188 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:51:07.384 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:51:07.407 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+18:51:07.408 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+18:51:07.412 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+18:51:07.414 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+18:51:07.418 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+18:51:07.423 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+18:51:07.451 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+18:51:07.478 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+18:51:07.564 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2a2c13a8,type=ConfigurationPropertiesRebinder]
+18:51:07.605 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+18:51:07.607 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+18:51:07.982 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+18:51:08.076 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+18:51:08.077 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+18:51:08.078 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+18:51:08.111 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+18:51:08.112 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+18:51:08.112 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+18:51:08.113 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+18:51:08.114 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+18:51:08.142 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+18:51:08.147 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: []
+18:51:08.491 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:51:08.494 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:51:08.494 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:51:08.495 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for PRODUCTSERVICE_agg
+18:51:08.499 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg]
+18:51:08.500 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:51:08.501 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:51:08.501 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:51:08.501 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for CHARGECODES_agg
+18:51:08.502 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg]
+18:51:08.503 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:51:08.503 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:51:08.503 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:51:08.504 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ASSIGNMENTS_agg
+18:51:08.504 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:51:08.505 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:51:08.506 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:51:08.506 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:51:08.506 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ZULL-SERVER_agg
+18:51:08.507 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:51:08.508 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:51:08.508 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:51:08.508 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:51:08.509 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for TIMERECORDS_agg
+18:51:08.509 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, TIMERECORDS_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:51:08.510 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:51:08.510 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:51:08.511 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:51:08.511 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for EMPDETAILSMASTER_agg
+18:51:08.512 [main] INFO  c.n.t.discovery.InstanceObservable - Starting InstanceObservable at frequency: 60000 millis
+18:51:08.512 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Registering application unknown with eureka with status UP
+18:51:08.585 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+18:51:08.599 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+18:51:08.603 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+18:51:08.607 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+18:51:08.610 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:51:08.611 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+18:51:08.611 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:51:08.613 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:51:08.615 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:51:08.616 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+18:51:08.616 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:51:08.618 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:51:08.619 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:51:08.619 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:51:08.620 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:51:08.620 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+18:51:08.621 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:51:08.624 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+18:51:08.625 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:51:08.625 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:51:08.626 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:51:08.626 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:51:08.627 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:51:08.642 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:51:08.733 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+18:51:08.737 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+18:51:08.741 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+18:51:08.745 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+18:51:08.782 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+18:51:08.801 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8761]
+18:51:08.823 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:51:08.956 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8761 (http)
+18:51:08.961 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Updating port to 8761
+18:51:08.966 [main] INFO  c.a.m.e.EurekaServerApplication - Started EurekaServerApplication in 20.307 seconds (JVM running for 22.773)
+18:51:35.860 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:51:35.861 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:51:35.917 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+18:52:08.134 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+18:52:08.619 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:52:08.619 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:52:08.620 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:52:08.621 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:52:08.621 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:52:08.621 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:52:08.622 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:52:08.623 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:52:08.623 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:52:08.624 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:52:08.625 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:52:08.625 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:52:08.626 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:52:08.627 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:52:08.627 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:52:08.628 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:52:13.889 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+18:52:13.890 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a2c13a8: startup date [Tue Apr 25 18:50:51 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:52:13.891 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Unregistering application unknown with eureka with status DOWN
+18:52:13.891 [RMI TCP Connection(2)-192.168.0.104] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+18:52:13.892 [RMI TCP Connection(2)-192.168.0.104] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+18:52:13.894 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+18:52:13.898 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:52:13.899 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+18:52:13.901 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:52:13.902 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:52:13.903 [RMI TCP Connection(2)-192.168.0.104] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+18:52:13.905 [RMI TCP Connection(2)-192.168.0.104] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+18:52:13.909 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+18:52:13.965 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat
+18:52:13.969 [localhost-startStop-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+18:52:14.012 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+18:52:14.018 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8761"]
+18:53:48.786 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2: startup date [Tue Apr 25 18:53:48 IST 2017]; root of context hierarchy
+18:53:49.167 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+18:53:49.273 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18:53:49.317 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$395ea18e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:53:50.252 [main] INFO  c.a.m.e.EurekaServerApplication - No active profile set, falling back to default profiles: default
+18:53:50.275 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66b7550d: startup date [Tue Apr 25 18:53:50 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:53:52.100 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+18:53:52.571 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=6d1d5238-6d6d-3488-91cd-2c4ce7c4261c
+18:53:52.671 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+18:53:52.792 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$395ea18e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:53:53.307 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8761 (http)
+18:53:53.330 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+18:53:53.332 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.6
+18:53:53.868 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:53:53.869 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3594 ms
+18:53:55.440 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+18:53:55.441 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:53:55.442 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:53:55.442 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:53:55.443 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:53:55.443 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestTraceFilter' to: [/*]
+18:53:55.444 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+18:53:55.444 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+18:53:55.445 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'proxyStreamServlet' to [/proxy.stream]
+18:53:55.471 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'turbineStreamServlet' to [/turbine.stream]
+18:53:55.472 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:53:55.627 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+18:53:55.760 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+18:53:55.760 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+18:53:56.035 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+18:53:56.036 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+18:53:57.221 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+18:53:57.302 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+18:53:57.322 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1493126637316 with initial instances count: 0
+18:53:57.456 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+18:53:57.459 [main] WARN  c.n.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+18:53:57.482 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+18:53:57.484 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+18:53:57.632 [main] INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66b7550d: startup date [Tue Apr 25 18:53:50 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2] and template loader path [classpath:/templates/]
+18:53:57.634 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+18:53:58.361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66b7550d: startup date [Tue Apr 25 18:53:50 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:53:58.536 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+18:53:58.538 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+18:53:58.540 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix/{path}]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+18:53:58.544 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hystrix]}" onto public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.home(org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+18:53:58.547 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:53:58.548 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:53:58.619 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:53:58.620 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:53:58.704 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:53:59.784 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+18:53:59.789 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+18:53:59.790 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.791 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:53:59.793 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.796 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+18:53:59.797 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.798 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+18:53:59.800 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.804 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.820 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.843 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.845 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.846 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.847 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+18:53:59.850 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:53:59.851 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.853 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+18:53:59.854 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+18:53:59.855 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+18:53:59.856 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+18:53:59.857 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+18:54:00.149 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+18:54:00.157 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:54:00.157 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:54:00.167 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+18:54:00.168 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+18:54:00.323 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:54:00.341 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+18:54:00.343 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+18:54:00.348 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+18:54:00.354 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+18:54:00.356 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+18:54:00.361 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+18:54:00.380 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+18:54:00.399 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+18:54:00.413 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=66b7550d,type=ConfigurationPropertiesRebinder]
+18:54:00.421 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+18:54:00.423 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+18:54:00.791 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+18:54:00.796 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+18:54:00.797 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+18:54:00.798 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+18:54:00.820 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+18:54:00.821 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+18:54:00.822 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+18:54:00.822 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+18:54:00.823 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+18:54:00.834 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+18:54:00.850 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: []
+18:54:01.158 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:54:01.185 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:54:01.186 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:54:01.186 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for PRODUCTSERVICE_agg
+18:54:01.191 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg]
+18:54:01.192 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:54:01.192 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:54:01.193 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:54:01.193 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for CHARGECODES_agg
+18:54:01.193 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg]
+18:54:01.194 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:54:01.194 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:54:01.195 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:54:01.195 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ASSIGNMENTS_agg
+18:54:01.195 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:54:01.196 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:54:01.197 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:54:01.197 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:54:01.197 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for ZULL-SERVER_agg
+18:54:01.198 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:54:01.199 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:54:01.200 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:54:01.200 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:54:01.200 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for TIMERECORDS_agg
+18:54:01.201 [main] INFO  o.s.c.n.t.SpringAggregatorFactory - Could not find monitors: [ZULL-SERVER_agg, PRODUCTSERVICE_agg, TIMERECORDS_agg, CHARGECODES_agg, ASSIGNMENTS_agg]
+18:54:01.202 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Registering event handler for cluster monitor: StaticListener_For_Aggregator
+18:54:01.202 [main] INFO  c.n.t.handler.TurbineDataDispatcher - 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+18:54:01.203 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+18:54:01.203 [main] INFO  c.n.t.monitor.cluster.ClusterMonitor - Starting up the cluster monitor for EMPDETAILSMASTER_agg
+18:54:01.204 [main] INFO  c.n.t.discovery.InstanceObservable - Starting InstanceObservable at frequency: 60000 millis
+18:54:01.204 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:54:01.204 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Registering application unknown with eureka with status UP
+18:54:01.205 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:54:01.205 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:54:01.206 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:54:01.206 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:54:01.207 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:54:01.207 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:54:01.207 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:54:01.207 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:54:01.208 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:54:01.208 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:54:01.208 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:54:01.209 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:54:01.209 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:54:01.210 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:54:01.210 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:54:01.253 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+18:54:01.262 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+18:54:01.267 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+18:54:01.272 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+18:54:01.277 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+18:54:01.282 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+18:54:01.287 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+18:54:01.291 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+18:54:01.296 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+18:54:01.301 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+18:54:01.305 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+18:54:01.310 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+18:54:01.349 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+18:54:01.365 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8761]
+18:54:01.424 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:54:01.568 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8761 (http)
+18:54:01.569 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Updating port to 8761
+18:54:01.575 [main] INFO  c.a.m.e.EurekaServerApplication - Started EurekaServerApplication in 13.787 seconds (JVM running for 15.904)
+18:54:30.306 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:54:30.307 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:54:30.368 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 61 ms
+18:55:00.833 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+18:55:01.213 [Timer-0] INFO  o.s.c.n.t.CommonsInstanceDiscovery - Fetching instance list for apps: [productservice, chargecodes, assignments, zull-server, timerecords, empdetailsmaster]
+18:55:01.213 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: productservice
+18:55:01.214 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: productservice
+18:55:01.214 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: chargecodes
+18:55:01.214 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: chargecodes
+18:55:01.214 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: assignments
+18:55:01.215 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: assignments
+18:55:01.215 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: zull-server
+18:55:01.215 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: zull-server
+18:55:01.215 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: timerecords
+18:55:01.216 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: timerecords
+18:55:01.216 [Timer-0] INFO  o.s.c.n.t.EurekaInstanceDiscovery - Fetching instances for app: empdetailsmaster
+18:55:01.216 [Timer-0] WARN  o.s.c.n.t.EurekaInstanceDiscovery - Eureka returned null for app: empdetailsmaster
+18:55:01.216 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Retrieved hosts from InstanceDiscovery: 0
+18:55:01.217 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Found hosts that have been previously terminated: 0
+18:55:01.217 [Timer-0] INFO  c.n.t.discovery.InstanceObservable - Hosts up:0, hosts down: 0
+18:55:21.317 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+18:55:21.318 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66b7550d: startup date [Tue Apr 25 18:53:50 IST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4686afc2
+18:55:21.319 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration - Unregistering application unknown with eureka with status DOWN
+18:55:21.320 [RMI TCP Connection(2)-192.168.0.104] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+18:55:21.320 [RMI TCP Connection(2)-192.168.0.104] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+18:55:21.339 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+18:55:21.345 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:55:21.345 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+18:55:21.347 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:55:21.347 [RMI TCP Connection(2)-192.168.0.104] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:55:21.349 [RMI TCP Connection(2)-192.168.0.104] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+18:55:21.353 [RMI TCP Connection(2)-192.168.0.104] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+18:55:21.361 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8761"]
+18:55:21.426 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat
+18:55:21.431 [localhost-startStop-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+18:55:21.465 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8761"]
+18:55:21.470 [RMI TCP Connection(2)-192.168.0.104] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8761"]
