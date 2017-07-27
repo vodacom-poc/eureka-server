@@ -5,7 +5,7 @@
 
 	<groupId>com.accenture.microservices.eurekaserver</groupId>
 	<artifactId>eureka_server</artifactId>
-	<version>1.1</version>
+	<version>2</version>
 	<packaging>jar</packaging>
 
 	<name>EurekaServer</name>
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.2.RELEASE</version>
+		<version>1.5.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -22,8 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<ch.qos.logback.version>1.1.6</ch.qos.logback.version>
-		<docker.image.prefix>54.208.215.226:5000</docker.image.prefix>
+		<docker.image.prefix>dockerhub.accenture.com/vodacom_poc</docker.image.prefix>
 	</properties>
 
 	<dependencies>
@@ -41,40 +40,12 @@
    	     <groupId>org.springframework.boot</groupId>
      	 <artifactId>spring-boot-starter-actuator</artifactId>
   	  </dependency>
-		
-		
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-turbine</artifactId>
-		</dependency>
-
-		<dependency>
+      <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-				<dependency>
-		    <groupId>net.logstash.logback</groupId>
-		    <artifactId>logstash-logback-encoder</artifactId>
-		    <version>4.8</version>
-		</dependency>
-		<dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-            <version>${ch.qos.logback.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${ch.qos.logback.version}</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-access</artifactId>
-            <version>${ch.qos.logback.version}</version>
-            <optional>true</optional>
-        </dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
@@ -82,7 +53,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Camden.SR3</version>
+				<version>Camden.SR6</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -94,13 +65,20 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+                <execution>
+                    <goals>
+                        <goal>build-info</goal>
+                    </goals>
+                </execution>
+            </executions>
 			</plugin>
 			<plugin>
 	            <groupId>com.spotify</groupId>
 	            <artifactId>docker-maven-plugin</artifactId>
 	            <version>0.4.11</version>
             	<configuration>
-	                <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+	                <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
 	                <dockerDirectory>src/main/docker</dockerDirectory>
 	                <resources>
 	                    <resource>
@@ -114,7 +92,6 @@
         	<plugin>
 			    <groupId>pl.project13.maven</groupId>
 			    <artifactId>git-commit-id-plugin</artifactId>
-			    <version>2.1.13</version>
 			</plugin>
 		</plugins>
 	</build>
